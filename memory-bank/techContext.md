@@ -2,43 +2,108 @@
 
 ## Technologies Used
 
-_List of technologies, frameworks, and libraries used in the project._
+- **Frontend**:
+
+  - Next.js 15+ with App Router
+  - React
+  - TypeScript
+  - Tailwind CSS for styling
+  - Monorepo structure with Turborepo
+
+- **Backend**:
+
+  - Supabase for authentication, database, and storage
+  - PostgreSQL database
+  - Serverless functions
+
+- **DevOps & Infrastructure**:
+
+  - Vercel for deployment
+  - GitHub for version control
+  - Continuous Integration/Continuous Deployment pipelines
+
+- **Tools & Utilities**:
+  - ESLint for code linting
+  - Prettier for code formatting
+  - PNPM as package manager
+  - TypeScript for static type checking
 
 ## Development Environment
 
-_Description of the development setup, tools, and configurations._
+- Turborepo for monorepo management
+- PNPM workspaces for package management
+- VSCode as the recommended IDE
+- ESLint and Prettier configurations shared across packages
+- Shared TypeScript configurations
+- Component library shared between applications
+- Hot module reloading for rapid development
 
 ## Build Process
 
-_How the project is built and deployed._
+- PNPM scripts for building and development
+- Turborepo for efficient build caching and pipeline management
+- Next.js build system for optimized production builds
+- Tailwind CSS processing for optimized styles
+- TypeScript compilation with shared configuration
 
 ## Dependencies
 
-_Key dependencies and their purposes._
+- **UI Components**: Shared UI library with Tailwind CSS
+- **State Management**: React hooks and context
+- **Data Fetching**: Next.js built-in data fetching capabilities
+- **Authentication**: Supabase Auth
+- **Database Access**: Supabase PostgreSQL client
+- **Forms & Validation**: To be determined
+- **AI Integration**: To be determined
 
 ## Technical Constraints
 
-_Any technical limitations or constraints the project must work within._
+- Browser compatibility requirements (modern browsers)
+- Accessibility compliance (WCAG standards)
+- Performance requirements for social media content generation
+- Security considerations for user data and content
+- Scalability for multiple simultaneous users
 
 ## Testing Strategy
 
-_Approach to testing, including unit, integration, and E2E tests._
+- Jest for unit testing
+- React Testing Library for component testing
+- Cypress for end-to-end testing
+- Mock service worker for API mocking
+- Supabase local development for backend testing
+- TypeScript for type safety and preventing common errors
 
 ## Deployment Pipeline
 
-_How the project is deployed to production._
+- GitHub Actions for CI/CD
+- Vercel for frontend deployment
+- Supabase for backend deployment
+- Preview deployments for pull requests
+- Database migrations during deployment process
+- Rollback capabilities for failed deployments
 
 ## Infrastructure
 
-_Infrastructure components and configurations._
+- Vercel for hosting frontend applications
+- Supabase for backend services
+- PostgreSQL database through Supabase
+- Content Delivery Network for assets
+- Serverless functions for background processing
 
 ## Third-Party Integrations
 
-_External services or APIs that the system interacts with._
+- Social media platforms (Twitter, Facebook, Instagram, LinkedIn)
+- AI services for content generation and analysis
+- Media processing and optimization services
+- Analytics and reporting tools
+- Email notification services
 
 ## Technical Debt
 
-_Known technical debt and plans to address it._
+- Initial setup using boilerplate that may need customization
+- Prototype features that will need refinement
+- Early architecture decisions that may need revisiting
+- Documentation that will need expansion as the project grows
 
 ---
 

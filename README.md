@@ -1,6 +1,6 @@
-# Turborepo Tailwind CSS starter
+# Spark
 
-This Turborepo starter is maintained by the Turborepo core team.
+Make effective social media marketing, communications, and branding easy with Spark's AI powered platform and tools.
 
 ## Using this example
 

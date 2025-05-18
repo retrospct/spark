@@ -2,24 +2,36 @@
 
 ## Overview
 
-Spark is a new project being initialized. This document will define the core requirements, goals, and scope for the project once they are established.
+Spark is an AI-powered platform designed to make effective social media marketing, communications, and branding easy. This project aims to provide tools and solutions that simplify and enhance the creation and management of social media content and marketing strategies.
 
-Building a [type of application] that will [main purpose].
+Building a web application platform that will help users create, manage, and optimize their social media presence using AI-powered tools.
 
 ## Core Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- AI-powered content creation and suggestions
+- Social media marketing campaign management
+- Brand consistency tools and templates
+- Analytics and performance tracking
+- Content scheduling and publishing
 
 ## Target Users
 
-[Describe who will use your application]
+- Social media managers and marketers
+- Small to medium-sized businesses
+- Brand managers
+- Communications professionals
+- Content creators
+- Marketing agencies
 
-## Technical Preferences (optional)
+## Technical Preferences
 
-- Any specific technologies you want to use
-- Any specific requirements or constraints
+- Next.js 15+ with App Router
+- Tailwind CSS for styling
+- Supabase for backend
+- Vercel for deployment
+- GitHub for version control
+- TypeScript for type safety
+- Turborepo monorepo structure
 
 <!-- ## Core Requirements
 
